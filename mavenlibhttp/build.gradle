@@ -42,8 +42,8 @@ uploadArchives {
     repositories.mavenDeployer {
         def mavenRepositoryPath = file(getProperty('aar.mavenlibhttp'))
         repository(url: "file://${mavenRepositoryPath.absolutePath}")
-        pom.project { groupId "com.chengang.mavenlinhttp"
-            artifactId "mavenlinhttp"
+        pom.project { groupId "com.chengang.mavenlibhttp"
+            artifactId "mavenlibhttp"
             version 1.0 }
     }
 }
