@@ -22,6 +22,9 @@ allprojects {
     repositories {
         google()
         jcenter()
+//        maven {
+//            url "https://raw.githubusercontent.com/CHENGang1001/mavenlibhttp/master"
+//        }
     }
 }
 

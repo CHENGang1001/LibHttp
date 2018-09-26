@@ -2,7 +2,6 @@ package com.chengang.mavenlibhttp.response;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
 
 import com.chengang.mavenlibhttp.Listener.DisposeDataHandler;
 import com.chengang.mavenlibhttp.Listener.DisposeDataListener;
@@ -52,7 +51,7 @@ public class CommonJsonCallback implements Callback {
 
     //请求失败的处理
     @Override
-    public void onFailure(@NonNull Call call, @NonNull final IOException e) {
+    public void onFailure(Call call,  final IOException e) {
         mDeliveryHandler.post(new Runnable() {
             @Override
             public void run() {
@@ -63,7 +62,7 @@ public class CommonJsonCallback implements Callback {
 
     //请求成功的处理
     @Override
-    public void onResponse(@NonNull Call call, @NonNull Response response) throws IOException {
+    public void onResponse( Call call, Response response) throws IOException {
         final String result = response.body().string();
         mDeliveryHandler.post(new Runnable() {
             @Override
