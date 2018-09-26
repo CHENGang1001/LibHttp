@@ -1,12 +1,12 @@
-package com.chengang.libhttp.response;
+package com.chengang.mavenlibhttp.response;
 
 import android.os.Handler;
 import android.os.Looper;
 import android.support.annotation.NonNull;
 
-import com.chengang.libhttp.Listener.DisposeDataHandler;
-import com.chengang.libhttp.Listener.DisposeDataListener;
-import com.chengang.libhttp.exception.OkHttpException;
+import com.chengang.mavenlibhttp.Listener.DisposeDataHandler;
+import com.chengang.mavenlibhttp.Listener.DisposeDataListener;
+import com.chengang.mavenlibhttp.exception.OkHttpException;
 import com.google.gson.Gson;
 
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package com.chengang.libhttp.https;
+package com.chengang.mavenlibhttp.https;
 
 import java.io.IOException;
 import java.io.InputStream;

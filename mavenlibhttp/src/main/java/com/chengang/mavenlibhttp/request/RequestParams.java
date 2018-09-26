@@ -1,4 +1,4 @@
-package com.chengang.libhttp.request;
+package com.chengang.mavenlibhttp.request;
 
 import java.io.FileNotFoundException;
 import java.util.HashMap;

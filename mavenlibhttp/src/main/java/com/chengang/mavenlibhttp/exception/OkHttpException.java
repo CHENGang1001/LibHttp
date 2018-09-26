@@ -1,4 +1,4 @@
-package com.chengang.libhttp.exception;
+package com.chengang.mavenlibhttp.exception;
 
 public class OkHttpException extends Exception {
     private static final long serialVersionUID = 1L;

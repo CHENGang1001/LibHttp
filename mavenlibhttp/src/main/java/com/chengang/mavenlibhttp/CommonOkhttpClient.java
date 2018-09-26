@@ -1,9 +1,8 @@
-package com.chengang.libhttp;
+package com.chengang.mavenlibhttp;
 
-import com.chengang.libhttp.Listener.DisposeDataHandler;
-import com.chengang.libhttp.Listener.DisposeDataListener;
-import com.chengang.libhttp.https.HttpsUtils;
-import com.chengang.libhttp.response.CommonJsonCallback;
+import com.chengang.mavenlibhttp.Listener.DisposeDataHandler;
+import com.chengang.mavenlibhttp.https.HttpsUtils;
+import com.chengang.mavenlibhttp.response.CommonJsonCallback;
 
 import java.util.concurrent.TimeUnit;
 
